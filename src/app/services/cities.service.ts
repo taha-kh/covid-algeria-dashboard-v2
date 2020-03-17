@@ -20,6 +20,7 @@ export class CitiesService {
     { nom: 'Bouira البويرة', latitude: 36.373485, longitude: 3.898228, order: 10, totalCas: 1, totalMorts: 0, totalGueris: 0 },
     { nom: 'Bordj Bou Arreridj برج بوعريريج', latitude: 36.073074, longitude: 4.760833, order: 11, totalCas: 1, totalMorts: 0, totalGueris: 0 },
     { nom: 'Annaba عنابة', latitude: 36.902874, longitude: 7.755392, order: 12, totalCas: 1, totalMorts: 0, totalGueris: 0 },
+    { nom: 'Béjaïa بجاية', latitude: 36.740255, longitude: 5.065597, order: 13, totalCas: 1, totalMorts: 0, totalGueris: 0 },
   ];
 
   totalCas: number = 0;
