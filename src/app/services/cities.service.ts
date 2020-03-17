@@ -9,7 +9,7 @@ export class CitiesService {
 
   cities: City[] = [
     { nom: 'Ouargla', latitude: 31.952921, longitude: 5.334971, order: 2, totalCas: 1, totalMorts: 0, totalGueris: 0 },
-    { nom: 'Blida', latitude: 36.471592, longitude: 2.825939, order: 1, totalCas: 40, totalMorts: 3, totalGueris: 12 },
+    { nom: 'Blida', latitude: 36.471592, longitude: 2.825939, order: 1, totalCas: 40, totalMorts: 4, totalGueris: 12 },
     { nom: 'Mascara', latitude: 35.401910, longitude: 0.140138, order: 3, totalCas: 2, totalMorts: 0, totalGueris: 0 },
     { nom: 'Tizi Ouzou', latitude: 36.713468, longitude: 4.047377, order: 4, totalCas: 4, totalMorts: 0, totalGueris: 0 },
     { nom: 'Souk Ahras', latitude: 36.279946, longitude: 7.938946, order: 5, totalCas: 1, totalMorts: 0, totalGueris: 0 },
