@@ -6,42 +6,42 @@
   
     @media all and (min-width:960px) and (max-width: 1024px) {
       .match-parent {
-        min-height: 50vh;
+        min-height: 40vh;
       }
     }
     
     @media(min-width:801px) and (max-width: 959px) {
       .match-parent {
-        min-height: 50vh;
+        min-height: 40vh;
       }
     }
     
     @media all and (min-width:769px) and (max-width: 800px) {
       .match-parent {
-        min-height: 50vh;
+        min-height: 40vh;
       }
     }
     
     @media all and (min-width:569px) and (max-width: 768px) {
       .match-parent {
-        min-height: 50vh;
+        min-height: 40vh;
       }
     }
     
     @media all and (min-width:481px) and (max-width: 568px) {
       .match-parent {
-        min-height: 50vh;
+        min-height: 40vh;
       }
     }
     
     @media all and (min-width:321px) and (max-width: 480px) {
       .match-parent {
-        min-height: 50vh;
+        min-height: 40vh;
       }
     }
     
     @media all and (min-width:0px) and (max-width: 320px) {
       .match-parent {
-        min-height: 50vh;
+        min-height: 40vh;
       }
     }
