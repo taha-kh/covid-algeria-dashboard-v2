@@ -1,0 +1,19 @@
+<div class="cities-container">
+    <div>
+        <div *ngFor="let c of cities" class="city">
+            <p>{{ c.nom }}</p>
+            <div class="row">
+                <div class="col-md-4 totalCas-cities">
+                    {{ c.totalCas}}
+                </div>
+                <div class="col-md-4 totalMorts-cities">
+                    {{ c.totalMorts}}
+                </div>
+                <div class="col-md-4 totalGueris-cities">
+                    {{ c.totalGueris}}
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

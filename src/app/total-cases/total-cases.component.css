@@ -1,0 +1,21 @@
+.total-cas{
+    text-align: center;
+    background-color: #E57373;
+    color : white;
+    padding-top: 5px;
+}
+
+.total-morts{
+    text-align: center;
+    background-color: #BDBDBD;
+    color : white;
+    padding-top: 5px;
+}
+
+.total-gueris {
+    text-align: center;
+    background-color: #009688;
+    color : white;
+    padding-top: 5px;
+}
+
