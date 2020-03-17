@@ -6,6 +6,10 @@ import { CitiesComponent } from './cities/cities.component';
 import { FooterComponent } from './footer/footer.component';
 import { MapComponent } from './map/map.component';
 import { TotalCasesComponent } from './total-cases/total-cases.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppRoutingModule } from './app-routing.module';
+import { ConseilsComponent } from './conseils/conseils.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +17,14 @@ import { TotalCasesComponent } from './total-cases/total-cases.component';
     CitiesComponent,
     FooterComponent,
     MapComponent,
-    TotalCasesComponent
+    TotalCasesComponent,
+    NavbarComponent,
+    ConseilsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

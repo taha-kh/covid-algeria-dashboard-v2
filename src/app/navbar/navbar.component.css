@@ -1,0 +1,16 @@
+.bg-dark {
+    background-color: #343a40c4 !important;    
+}
+
+.item-custom a{
+    color: white !important;
+    font-weight: bold;
+}
+
+.item-custom{
+
+}
+.navbar-brand img{
+    width: 50px;
+}
+

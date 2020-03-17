@@ -41,7 +41,8 @@
 @media all and (min-width:960px) and (max-width: 1024px) {
     .cities-container{
         background-color: #F5F5F5;    
-        overflow-y: hidden;            
+        overflow-y: hidden;     
+        max-height: none;       
     }
   }
   
@@ -49,6 +50,7 @@
     .cities-container{
         background-color: #F5F5F5;
         overflow-y: hidden;  
+        max-height: none;   
     }
   }
   
@@ -56,6 +58,7 @@
     .cities-container{
         background-color: #F5F5F5;
         overflow-y: hidden;  
+        max-height: none;   
     }
   }
   
@@ -63,6 +66,7 @@
     .cities-container{
         background-color: #F5F5F5;
         overflow-y: hidden;  
+        max-height: none;   
     }
   }
   
@@ -70,6 +74,7 @@
     .cities-container{
         background-color: #F5F5F5;
         overflow-y: hidden;  
+        max-height: none;   
     }
   }
   
@@ -77,6 +82,7 @@
     .cities-container{
         background-color: #F5F5F5;
         overflow-y: hidden; 
+        max-height: none;   
     }
   }
   
@@ -84,5 +90,6 @@
     .cities-container{
         background-color: #F5F5F5;
         overflow-y: hidden; 
+        max-height: none;   
     }
   }

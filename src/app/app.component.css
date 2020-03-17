@@ -1,4 +1,12 @@
 .titre-page{
     text-align: center;
-    margin-top : 5px;
+    margin-top : 10px;
+}
+
+.num-vert{
+    border: 1px solid #0080002e;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
 }
