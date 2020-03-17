@@ -76,11 +76,13 @@
   @media all and (min-width:321px) and (max-width: 480px) {
     .cities-container{
         background-color: #F5F5F5;
+        overflow-y: hidden; 
     }
   }
   
   @media all and (min-width:0px) and (max-width: 320px) {
     .cities-container{
         background-color: #F5F5F5;
+        overflow-y: hidden; 
     }
   }
