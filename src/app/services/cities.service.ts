@@ -21,7 +21,9 @@ export class CitiesService {
     { nom: 'Bordj Bou Arreridj برج بوعريريج', latitude: 36.073074, longitude: 4.760833, order: 11, totalCas: 1, totalMorts: 0, totalGueris: 0 },
     { nom: 'Annaba عنابة', latitude: 36.902874, longitude: 7.755392, order: 12, totalCas: 1, totalMorts: 0, totalGueris: 0 },
     { nom: 'Béjaïa بجاية', latitude: 36.740255, longitude: 5.065597, order: 13, totalCas: 1, totalMorts: 0, totalGueris: 0 },
+    { nom: 'El Oued الوادي', latitude: 33.365779, longitude: 6.847180, order: 13, totalCas: 2, totalMorts: 1, totalGueris: 0 },
     { nom: 'Médéa المدية', latitude: 36.262699, longitude: 2.755173, order: 13, totalCas: 1, totalMorts: 0, totalGueris: 0 },
+    { nom: 'Boumerdès بومرداس', latitude: 36.752000, longitude: 3.464908, order: 13, totalCas: 1, totalMorts: 0, totalGueris: 0 },
   ];
 
   totalCas: number = 0;
