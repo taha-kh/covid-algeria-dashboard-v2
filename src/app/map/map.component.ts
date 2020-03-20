@@ -33,7 +33,7 @@ export class MapComponent implements OnInit {
       accessToken : environment.mapbox.accessToken,
       container: 'map',
       style: this.style,
-      zoom: 4.8,
+      zoom: 4,
       center: [this.algerieLng, this.algerieLat],
       minZoom: 2,
       //maxBounds: this.maxBoundsLimits
