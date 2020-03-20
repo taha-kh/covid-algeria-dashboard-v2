@@ -15,7 +15,7 @@ export class MapComponent implements OnInit {
 
   map: mapboxgl.Map;
   style = 'mapbox://styles/mapbox/streets-v11';
-  algerieLat = 27.559342;
+  algerieLat = 31.179664;
   algerieLng = 2.708423;
   maxBoundsLimits = new mapboxgl.LngLatBounds(
     new mapboxgl.LngLat(-22.808084, 16.037997),
@@ -33,7 +33,7 @@ export class MapComponent implements OnInit {
       accessToken : environment.mapbox.accessToken,
       container: 'map',
       style: this.style,
-      zoom: 3,
+      zoom: 5,
       center: [this.algerieLng, this.algerieLat],
       minZoom: 2,
       //maxBounds: this.maxBoundsLimits
@@ -47,20 +47,24 @@ export class MapComponent implements OnInit {
   markCities() {
     for (let city of this.cities) {
       var size = 0;
+      var fillStyle = "";
       if (city.totalCas < 4) {
         size = 80;
+        fillStyle = '#fdd835';
       } else if (city.totalCas >= 4 && city.totalCas <20 ) {
         size = 130;
+        fillStyle = '#ffa726';
       } else if (city.totalCas >= 20) {
         size = 200;
+        fillStyle = '#bf360c';
       } 
       
-      this.addMarkers(this.map, size, city.nom, city.longitude, city.latitude);
+      this.addMarkers(this.map, size, city.nom, city.longitude, city.latitude, fillStyle);
     }
     
   }
 
-  addMarkers(map: mapboxgl.Map, sizeEpidemie: number, cityName, long : number, lat : number) {
+  addMarkers(map: mapboxgl.Map, sizeEpidemie: number, cityName, long : number, lat : number, fillStyle : string) {
     var size = sizeEpidemie;
 
     var pulsingDot = {
@@ -107,7 +111,7 @@ export class MapComponent implements OnInit {
           0,
           Math.PI * 2
         );
-        context.fillStyle = 'rgba(255, 100, 100, 1)';
+        context.fillStyle = fillStyle;
         context.strokeStyle = 'white';
         context.lineWidth = 2 + 4 * (1 - t);
         context.fill();

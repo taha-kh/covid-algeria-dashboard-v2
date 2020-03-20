@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  dateMaj: String  = "19/03/2020 - 18:19";
+  dateMaj: String  = "20/03/2020 - 09:31";
 }
