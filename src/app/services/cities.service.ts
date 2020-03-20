@@ -15,7 +15,7 @@ export class CitiesService {
     { nom: 'Annaba عنابة', latitude: 36.902874, longitude: 7.755392, order: 12, totalCas: 5, totalMorts: 0, totalGueris: 0 },
     { nom: 'Bordj Bou Arreridj برج بوعريريج', latitude: 36.073074, longitude: 4.760833, order: 11, totalCas: 2, totalMorts: 0, totalGueris: 0 },
     { nom: 'Mascara معسكر', latitude: 35.401910, longitude: 0.140138, order: 3, totalCas: 2, totalMorts: 0, totalGueris: 2 },
-    { nom: 'El Oued الوادي', latitude: 33.365779, longitude: 6.847180, order: 13, totalCas: 2, totalMorts: 1, totalGueris: 0 },
+    { nom: 'El Oued الوادي', latitude: 33.365779, longitude: 6.847180, order: 13, totalCas: 2, totalMorts: 2, totalGueris: 0 },
    // { nom: 'Guelma قالمة', latitude: 36.462044, longitude: 7.431173, order: 8, totalCas: 2, totalMorts: 0, totalGueris: 0 },
     { nom: 'Bouira البويرة', latitude: 36.373485, longitude: 3.898228, order: 10, totalCas: 1, totalMorts: 0, totalGueris: 0 },
     { nom: 'Béjaïa بجاية', latitude: 36.740255, longitude: 5.065597, order: 13, totalCas: 1, totalMorts: 0, totalGueris: 0 },
