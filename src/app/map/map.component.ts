@@ -15,7 +15,7 @@ export class MapComponent implements OnInit {
 
   map: mapboxgl.Map;
   style = 'mapbox://styles/mapbox/streets-v11';
-  algerieLat = 31.179664;
+  algerieLat = 32.689215;
   algerieLng = 2.708423;
   maxBoundsLimits = new mapboxgl.LngLatBounds(
     new mapboxgl.LngLat(-22.808084, 16.037997),
