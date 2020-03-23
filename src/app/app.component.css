@@ -10,3 +10,17 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+.message-arret{
+    z-index: 1000;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.80);
+    padding : 300px;
+}
