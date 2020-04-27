@@ -9,3 +9,6 @@ A web platform to pursue the Covid-19 pandemic in Algeria (City by City)
 
 ## Preview
 https://covidalgeria.netlify.app/ 
+
+## LICENCE
+MIT
